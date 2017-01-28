@@ -5,9 +5,12 @@ body {
 	font-weight: 300;
 }
 
+
 /* General  */
 
-a, a:hover, a:focus {
+a,
+a:hover,
+a:focus {
 	color: #fff;
 }
 
@@ -17,7 +20,12 @@ a:focus {
 	outline: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Coustard', sans-serif;
 	margin: 0;
 	padding: 0;
@@ -58,6 +66,7 @@ h6 {
 	background: #000 url(../images/loader.gif) 50% 50% no-repeat;
 }
 
+
 /* Header  */
 
 #header {
@@ -69,7 +78,6 @@ h6 {
 .header-overlay {
 	background: #05c3f9;
 	padding: 35px 0 70px;
-
 	position: absolute;
 	top: 50%;
 	height: 230px;
@@ -85,7 +93,8 @@ h6 {
 	margin: 0 auto;
 }
 
-#header .main-head h2, #header .main-head h4 {
+#header .main-head h2,
+#header .main-head h4 {
 	font-weight: 300;
 }
 
@@ -97,6 +106,7 @@ h6 {
 	color: #fa354d;
 }
 
+
 /* Main Heading Style Starts */
 
 .main-head {
@@ -104,7 +114,8 @@ h6 {
 	padding: 0 0 0px;
 }
 
-.main-head h2, .main-head p {}
+.main-head h2,
+.main-head p {}
 
 .main-head h2 {
 	padding: 0 0 20px;
@@ -134,6 +145,7 @@ h6 {
 	font-size: 1.7em;
 }
 
+
 /* Footer  */
 
 #footer {
@@ -141,18 +153,22 @@ h6 {
 	margin-top: 40px;
 	font-size: 13px;
 	text-align: center;
-	background: rgba(255, 255, 255, 0.1)
+	background-color: #333333;
 }
 
 #footer p {
 	margin: 10px;
 }
 
+
 /* Responsive */
+
 
 /* Contact Style Starts */
 
-#contact h3, .address, #contact-form .form-group {
+#contact h3,
+.address,
+#contact-form .form-group {
 	text-align: center;
 }
 
@@ -168,23 +184,21 @@ h6 {
 
 @media (max-width: 767px) {
 	/* Contact Style Starts */
-
-	#contact h3, .address, #contact-form .form-group {
+	#contact h3,
+	.address,
+	#contact-form .form-group {
 		text-align: center;
 	}
-
 	#contact-area {
 		padding-bottom: 20px;
 	}
 	/* Footer Style Starts */
-
 	#footer ul.sm-links li a span {
 		width: 45px;
 		height: 45px;
 		line-height: 42px;
 		font-size: 20px;
 	}
-
 	.copyright {
 		font-size: 16px;
 	}
