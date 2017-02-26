@@ -150,12 +150,10 @@ h6 {
 
 #footer {
 	padding: 10px 0;
-	margin-top: 40px;
+	margin-top: -50px;
 	font-size: 13px;
 	text-align: center;
 	background-color: #333333;
-	position: absolute;
-	bottom: 0;
 	width: 100%;
 }
 
