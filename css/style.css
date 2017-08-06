@@ -137,11 +137,11 @@ h6 {
 }
 
 .social-media-icons li a i {
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 .social-media-icons li a i:hover {
-  font-size: 1.7em;
+  font-size: 2.7em;
 }
 
 /* Footer  */
@@ -155,6 +155,13 @@ h6 {
   width: 100%;
   position: absolute;
   bottom: 0 !important;
+
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 #footer p {
